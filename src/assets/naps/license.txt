@@ -1,0 +1,11 @@
+Model Information:
+* title:	Napstablook
+* source:	https://sketchfab.com/3d-models/napstablook-503fd013418c4bf087cced7b6e565fc6
+* author:	PolyChromic (https://sketchfab.com/PolyChromicDesing)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Napstablook" (https://sketchfab.com/3d-models/napstablook-503fd013418c4bf087cced7b6e565fc6) by PolyChromic (https://sketchfab.com/PolyChromicDesing) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
