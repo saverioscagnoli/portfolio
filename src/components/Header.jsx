@@ -1,10 +1,16 @@
-import { Center, Heading } from '@chakra-ui/react'
+import { Center, Heading, VStack } from '@chakra-ui/react'
 import React from 'react'
 
 function Header() {
   return (
     <Center>
-        <Heading marginTop={100}>Saverio Scagnoli</Heading>
+      <VStack marginTop={100}>
+
+      <Heading>Saverio Scagnoli</Heading>
+      <Heading as='h3' size='sm'>Game and level designer</Heading>
+
+      </VStack>
+
     </Center>
   )
 }
