@@ -2,9 +2,10 @@ import React from 'react'
 import ReactDOM from 'react-dom'
 import App from './App'
 import { ChakraProvider } from '@chakra-ui/react'
+import theme from './components/Theme'
 
 ReactDOM.render(
-  <ChakraProvider>
+  <ChakraProvider theme={theme}>
   <React.StrictMode>
     <App />
   </React.StrictMode>

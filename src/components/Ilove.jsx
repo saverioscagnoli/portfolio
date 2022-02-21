@@ -9,8 +9,10 @@ function Ilove() {
      textUnderlineOffset={2} textDecorationColor='gray' textDecorationThickness={4}>I ♥</Heading>
 
      <Text textAlign='justify' paddingTop={5} >Art, music, {' '}
-     <Link href='https://500px.com/p/saverioscagnoli?view=photos' isExternal fontWeight='semibold' color='pink.300' textUnderlineOffset={3}>photography</Link>
-     , origami, travelling and mangas, with my favourite being <strong>Berserk</strong>.</Text>
+     <Link href='https://500px.com/p/saverioscagnoli?view=photos' isExternal fontWeight='bold' color='pink.500' textUnderlineOffset={3}>photography</Link>
+     , origami, travelling and mangas, with my favourite being <strong>Berserk</strong>. I also love coding, especially HTML, CSS and Javascript, and with it i coded some {' '}
+      <Link href='https://github.com/saverioscagnoli/uncle-pear-bot'
+     fontWeight='bold' color='pink.500' isExternal textUnderlineOffset={3}>Discord bots.</Link></Text>
     </Box>
     </Container>
   )
