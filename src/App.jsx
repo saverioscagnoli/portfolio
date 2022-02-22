@@ -2,7 +2,7 @@ import Navbar from "./components/Navbar";
 import Naps from "./components/Naps";
 import './style.css'
 import { Route, BrowserRouter as Router, Routes } from "react-router-dom";
-import Home from "../pages/home";
+import Home from "../pages/Home";
 import Works from "../pages/Works";
 import Downgrade from "../pages/Downgrade";
 import { VStack } from "@chakra-ui/react";
