@@ -13,8 +13,8 @@ function Navbar() {
     const naps = '/images/napstablook.png';
 
   return (
-    <Center marginTop={5}>
-    <VStack pos='fixed' backdropFilter='auto' backdropBlur='8px' zIndex={1}>
+    <Center marginTop={5} width='100%'>
+    <VStack pos='fixed' backdropFilter='auto' backdropBlur='8px' zIndex={1} marginTop={2} >
         <Flex  width='100%' height={12} align='center' marginLeft={-60}>
             <Link to='/'><Box className='logo' display='flex' cursor='pointer'>
                 <Image className='naps' src={naps} width={5} height={10} transition='100ms ease' pos='absolute' marginTop={1} marginLeft={3}></Image>
@@ -24,7 +24,7 @@ function Navbar() {
             </Box></Link> 
             
             <List display='flex' fontWeight='semibold' textUnderlineOffset={2}>   
-                 <Link to='/works'><ListItem padding={2}>Works</ListItem></Link> 
+                 <Link to='/works'><ListItem _hover={{ textDecoration: 'underline'}} padding={2}>Works</ListItem></Link> 
                  <CLink href='https://www.linkedin.com/in/saverio-scagnoli-988463227/' isExternal><ListItem padding={2}>linkedIn</ListItem></CLink> 
                  <CLink href='https://github.com/saverioscagnoli/portfolio' isExternal><ListItem display='flex' padding={2}> <ListIcon as={FaGithub} marginTop='4px' /> Source</ListItem></CLink> 
             </List>
