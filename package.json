@@ -19,6 +19,7 @@
     "react-dom": "^17.0.0",
     "react-favicon": "^0.0.26",
     "react-icons": "^4.3.1",
+    "react-router-dom": "^6.2.1",
     "three": "^0.137.5"
   },
   "devDependencies": {
