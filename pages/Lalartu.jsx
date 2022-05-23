@@ -131,7 +131,7 @@ function Lalartu() {
           <CLink
             style={{ color: "inherit", textDecoration: "inherit" }}
             isExternal
-            href="https://drive.google.com/file/d/1bGWHXX6DIi3XtsLxbSmIVvf78NpnH3GQ/view"
+            href="https://drive.google.com/file/d/1hhtsXZHmMygE48NjYp0jKme9A3dz0FtS/view?usp=sharing"
           >
             <Button
               background={isDark ? "teal.300" : "teal.400"}
